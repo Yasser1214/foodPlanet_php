@@ -1,0 +1,538 @@
+/************ General ************/
+
+
+body {
+	font-family: OCR A Std, monospace, sans-serif;
+	background-image: url("../pictures/background-img.jpg");
+	background-size: 100%;
+}
+
+h1 {
+	margin-left: 33%;
+	font-size: 60px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.bar {
+	width: 100%;
+	height: 2px;
+	margin-bottom: 20px;
+	background-color: #000;
+}
+
+input[type=submit] {
+	width: 150px;
+	height: 70px;
+	background-color: #008080;
+	color: #FFC300;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 50px;
+	border-color: #FFC300;
+	border-width: 2px;
+}
+
+input[type=submit]:hover {
+	background-color: #FFC300;
+	color: #1E8449;
+	border-color: #008080;
+	border-width: 2px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  color: #1E8449;
+  border-radius: 5px;
+}
+
+
+/************ Index : h1 title ************/
+
+
+h1 .food {
+	color: #008080;
+	font-weight: bold;
+}
+
+h1 .planet {
+	color: #FFC300;
+	font-weight: bold;
+}
+
+h1 img {
+	width: 6%;
+	height: 8%;
+}
+
+
+/************ Index : registration-form / connection-form ************/
+
+
+#registration-form form, #connection-form form {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding: 15px 65px;
+	background-color: #FFC300;
+	border-radius: 50px;
+}
+
+#registration-form form h2, #connection-form form h2 {
+	font-size: 15px;
+	color: #008080;
+}
+
+#registration-form label, #connection-form label {
+	text-transform: lowercase;
+	font-weight: bold;
+	color: #008080;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#registration-form input, #connection-form input {
+	width: 200px;
+	color: #008080;
+	border-radius: 25px;
+}
+
+#registration-form input[type=submit], #connection-form input[type=submit] {
+	margin-top: 10px;
+	color: #FFC300;
+}
+
+#registration-form input[type=submit]:hover, #connection-form input[type=submit]:hover {
+	margin-top: 10px;
+	color: #008080;
+}
+
+
+/************ Index : Submit block ************/
+
+
+#submit-block {
+	width: 200px;
+	position: fixed;
+	top: 220px;
+	right: 5px;
+}
+
+#promo {
+	padding-top: 10px;
+	background-color: #FFC300;
+	border-radius: 50px;
+}
+
+#promo h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-left: 27px;
+	color: #1E8449;
+}
+
+#promo input {
+	color: #1E8449;
+	border-radius: 50px;
+	border-color: #1E8449;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#promo #promo-message {
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 20px;
+	color: #1E8449;
+}
+
+#promo #apply-promo {
+	text-transform: uppercase;
+	margin: 5px 70px;
+	color: #FFC300;
+	background-color: #1E8449;
+	border-radius: 25px;
+	border-color: #008080;
+}
+
+#promo #apply-promo:hover {
+	text-transform: uppercase;
+	color: #008080;
+	background-color: #FFC300;
+	border-radius: 25px;
+	border-color: #1E8449;
+}
+
+#submit-block #submit {
+	margin: 40px 28px;
+}
+
+#submit-block #submit #isAuthentified {
+	font-weight: bold;
+	margin-left: 15px;
+	color: #770000;
+}
+
+.submit-auth {
+	width: 80px !important;
+	height: 30px !important;
+	font-size: 10px;
+}
+
+
+/************ Index : Form, items-buttons and welcome-panel ************/
+
+
+#items-form #items-buttons {
+	float: left;
+}
+
+#items-form #items-buttons ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#items-form #items-buttons button {
+	background-color: #FFC300;
+	border-radius: 50px;
+	flex-direction: column;
+}
+
+#items-form #items-buttons button img {
+	width: 120px;
+	height: 100px;
+	background-color: #008080;
+	border-radius: 50px;
+}
+
+#items-form #items-buttons button:hover {
+	background-color: #008080;
+	border-radius: 50px;
+}
+
+#items-form #items-buttons button:hover img {
+	width: 120px;
+	height: 100px;
+	background-color: #FFC300;
+	border-radius: 50px;
+}
+
+#items-form #items-buttons button p {
+	text-transform: uppercase;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+#items-form #welcome-panel button {
+	margin: 20px 35px;
+	background-color: #FFC300;
+	border-radius: 50px;
+}
+
+#items-form #welcome-panel button img {
+	width: 200px;
+	height: 200px;
+	background-color: #008080;
+	border-radius: 50px;
+}
+
+#items-form #welcome-panel button:hover {
+	margin: 20px 35px;
+	background-color: #008080;
+	border-radius: 50px;
+}
+
+#items-form #welcome-panel button:hover img {
+	width: 200px;
+	height: 200px;
+	background-color: #FFC300;
+	border-radius: 50px;
+}
+
+#items-form #welcome-panel button p {
+	text-transform: uppercase;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+
+/************ Index : items-form ************/
+
+
+#items-form .item-panel {
+	width: 65%;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 130px;
+	background-color: #008080;
+	border-radius: 50px;
+	border-color: #fff;
+	float: initial;
+}
+
+#items-form #menu {
+	background-image: url("../pictures/menus.png");
+	background-size: 100px 100px;
+}
+
+#items-form #sandwich {
+	background-image: url("../pictures/sandwichs.png");
+	background-size: 100px 100px;
+}
+
+#items-form #accompaniment {
+	background-image: url("../pictures/accompaniments.png");
+	background-size: 100px 100px;
+}
+
+#items-form #drink {
+	background-image: url("../pictures/drinks.png");
+	background-size: 100px 100px;
+}
+
+#items-form #menu li, #sandwich li, #accompaniment li {
+	margin: 80px auto;
+}
+
+#items-form .item-title {
+	width: 250px;
+	padding-left: 30px;
+	background-color: #FFC300;
+	color: #1E8449;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+#items-form ul li {
+	display: inline-block;
+	list-style-type: none; 
+}
+
+#items-form ul li .item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #FFC300;
+    margin-left: 93px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+#items-form ul li .item p {
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+#items-form ul li .item p .item-price {
+    color: #1E8449;
+    font-weight: bold;
+}
+
+#items-form ul li .item .bar {
+    margin-bottom: 10px;
+}
+
+#items-form ul li .checktools {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#items-form  div label img {
+	width: 170px;
+	height: 170px;
+	margin: 10px 40px;
+	background-color: #fff;
+	border-radius: 50px;
+}
+
+#items-form  div .nb {
+	width: 30px;
+}
+
+.addbar {
+	width: 30px;
+	background-color: #008080;
+	color: #FFC300;
+	font-weight: bold;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #FFC300;
+}
+
+.number-item {
+	border-radius: 10px;
+}
+
+
+/************ Confirm ************/
+
+
+#user-button {
+	float: left;
+}
+
+#home-button {
+	float: right;
+}
+
+
+#confirmation-wrapper {
+	width: 520px;
+	height: 260px;
+	margin: 150px auto 0 auto;
+	padding: 5px 1px;
+	background-color: #008080;
+	border-radius: 25px;
+}
+
+#confirmation-wrapper p {
+	margin-top: 20px;
+	margin-left: 25px;
+	color: #FFC300;
+}
+
+#confirmation {
+	width: 500px;
+	height: 240px;
+	margin: auto;
+	padding-top: 20px;
+	background-color: #FFC300;
+	border-width: 10px;
+	border-radius: 35px;
+	border-color: #008080;
+}
+
+#confirmation label {
+	font-weight: bold;
+	padding-left: 45%;
+	padding-top: 20px;
+	color: #000;
+}
+
+#confirmation p {
+	font-weight: bold;
+	padding-left: 33%;
+	padding-bottom: 20px;
+	color: #008080;
+}
+
+#confirmation #footnote {
+	font-weight: normal; 
+	font-size: 12px; 
+	color: #900000;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+#payment-options {
+	width: 250px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#payment-options label {
+	margin: 10px auto;
+	font-weight: bold;
+	color: #000;
+}
+
+#payment-options select {
+	font-weight: bold;
+	background-color: #FFC300;
+	color: #008080;
+	border-color: #008080;
+	border-radius: 50px;
+}
+
+#payment-options input {
+	font-weight: bold;
+	background-color: #FFC300;
+	color: #008080;
+	border-color: #008080;
+	border-radius: 50px;
+}
+
+#payment-form input[type=submit] {
+	margin: 10px 46%;
+}
+
+
+/************ Read ************/
+
+
+#receipt-wrapper {
+	width: 520px;
+	height: 280px;
+	margin: auto;
+	margin-top: 150px;
+	padding: 1px 1px;
+	background-color:  #008080;
+	border-radius: 50px;
+}
+
+#receipt {
+	width: 500px;
+	height: 250px;
+	margin: auto;
+	text-align: justify;
+	background-color:  #FFC300;
+	border-radius: 50px;
+}
+
+#receipt p {
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 30px;
+}
+
+#print-button {
+	width: 80px;
+	height: 60px;
+	margin: 50px 0 0 48%;
+	background-image: url("../pictures/print.png");
+	background-size: 60px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #008080;
+	border-radius: 25px;
+	border-width: 2px;
+	border-color: #FFC300;
+}
+
+#print-button:hover {
+	background-color:  #FFC300;
+	border-width: 2px;
+	border-color: #008080;
+}
+
+
+/************ Footer ************/
+
+
+footer {
+	width: 100%;
+	min-height: 200px;
+	clear: both;
+	margin-top: 50px;
+	background-color: #FFC300;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 50px;
+	color: #008080;
+	font-weight: bold;
+}
